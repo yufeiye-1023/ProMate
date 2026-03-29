@@ -2,7 +2,7 @@
 
 **Prototype-driven meta-learning enables cross-ligase generalization for PROTAC degradation activity prediction**
 
-> *Bioinformatics*, 2025 | [Paper](#) | [Data](#)
+> *Bioinformatics*, 2026 | [Paper](#) | [Data](#)
 
 ---
 
@@ -17,7 +17,7 @@ Pro-PROTAC is a prototype-based graph neural network trained under an episodic m
 - Outperforms PROTAC-STAN and DegradeMaster on cross-ligase transfer benchmarks
 
 <p align="center">
-  <img src="figures/model_framework.png" width="800"/>
+  <img src="model_frame.png" width="800"/>
   <br>
   <em>Overview of the Pro-PROTAC framework. The GNN encoder is meta-trained on CRBN episodes and directly transferred to unseen E3 ligases at inference time via prototype-based classification.</em>
 </p>
@@ -205,7 +205,7 @@ python visualize.py \
 | **Pro-PROTAC** | **0.806 ± 0.012** | **0.854 ± 0.007** |
 
 <p align="center">
-  <img src="figures/radar_K2Q3.png" width="480"/>
+  <img src="radar_K2Q3.png" width="480"/>
   <br>
   <em>Radar chart comparison on the CRBN→VHL benchmark (K=2, Q=3). Pro-PROTAC consistently occupies the largest area across all five metrics.</em>
 </p>
@@ -225,12 +225,12 @@ python visualize.py \
 If you use Pro-PROTAC in your research, please cite:
 
 ```bibtex
-@article{proprotac2025,
+@article{proprotac2026,
   title   = {Pro-PROTAC: Prototype-driven meta-learning enables cross-ligase
              generalization for PROTAC degradation activity prediction},
   author  = {Author1 and Author2},
   journal = {Bioinformatics},
-  year    = {2025},
+  year    = {2026},
   doi     = {DOI HERE}
 }
 ```
